@@ -3,16 +3,18 @@
 let age = 20 // input received in number 
 
 let heightInCm = "163" // input received string 
-let height = Number(163) // conversion to number
+let height = Number(heightInCm) // conversion to number
 console.log(typeof height) // due to better understanding height must in number formate
 
 let salary = "₹32,000"
 let salaryInNumber = Number(salary) // conversion to number 
 console.log(salaryInNumber) // NaN - Not a Number  due to '₹'
 
+console.log(salary.replace(/[^ 0 - 9]/, "")) // Solution
+
 let matchesPlayed = null;
 let matchesInNumber = Number(matchesPlayed)
-console.log(matchesInNumber) // null conversion into '0'
+console.log(matchesInNumber)// 0 => null is treated as 0 in number conversion
 
 
 let isPlaying = true;
