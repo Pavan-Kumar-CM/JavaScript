@@ -15,6 +15,5 @@ console.log(`1: ` + playerName)
 console.log(`2: ` + isPlaying)
 console.log(`3: ` + t20Score)
 console.log(`4: ` + salary)
-
 console.table([jerseyNumber + typeof jerseyNumber, typeof playerName, typeof isPlaying, typeof t20Score, typeof salary])
 
