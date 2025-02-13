@@ -17,5 +17,4 @@ console.log("Name: " + userName)
 console.log("Gender: " + gender)
 console.log(marks) //Output : undefined 
 
-
 console.table([USN, userName, gender, marks]) // Show All The Values in table formate -> (index) | values
