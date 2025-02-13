@@ -1,6 +1,6 @@
 // Conversion in Js
 
-let age = 20 // input received number 
+let age = 20 // input received in number 
 
 let heightInCm = "163" // input received string 
 let height = Number(163) // conversion to number
