@@ -5,7 +5,6 @@ let age = 20 // input received in number
 let heightInCm = "163" // input received string 
 let height = Number(heightInCm) // conversion to number
 console04.log(typeof height) // due to better understanding height must in number formate
-
 let salary = "₹32,000"
 let salaryInNumber = Number(salary) // conversion to number 
 console.log(salaryInNumber) // NaN - Not a Number  due to '₹'
